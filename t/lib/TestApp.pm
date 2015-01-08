@@ -7,7 +7,7 @@ use Catalyst::Runtime '5.70';
 use FindBin;
 
 use Catalyst
-    qw/ Session Session::State::Cookie Session::Store::File /;
+    qw/ Session Session::State::Cookie Session::Store::Dummy /;
 
 our $VERSION = '0.01';
 
