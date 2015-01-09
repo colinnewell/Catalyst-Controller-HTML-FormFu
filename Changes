@@ -4,6 +4,8 @@
     
     - Only require MultiForm at runtime when needed
 
+    - Removed test dependency on Session::Store::File
+
 0.09004 2012-09-11
 
     - switch from MooseX::ChainedAccessors to MooseX::Attribute::Chained
